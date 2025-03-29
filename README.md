@@ -18,7 +18,7 @@ Diseñar un controlador que permita formular un protocolo de tratamiento para qu
 6. Ilustrar el cambio del ujo de aire y el volumen tidal en respuesta a las siguientes formas de onda de presión sinusoidal en la apertura de la vía aérea [Pao (t)] :
    a) 15 respiraciones por minuto con una amplitud (A) de 2.5 cmH2O, es decir, respiración normal.
    b) 30 respiraciones por minuto con una amplitud (A) de 1.5 cmH2O, es decir, respiración elevada o taquipnea.
-7. Determinar la respuesta a la función sinusoidal [u(t) = Asinwt] en el intervalo t pertence [0;30] (segundos), en Python, Simulink y Multisim en lazo abierto y en lazo cerrado con el controlador.
+7. Determinar la respuesta a la función sinusoidal [u(t) = A sin(wt)] en el intervalo t pertence [0,30] (segundos), en Python, Simulink y Multisim en lazo abierto y en lazo cerrado con el controlador.
 8. Elaborar el diagrama biológico del sistema con BioRender.com.
 9. Discutir los resultados obtenidos en la experimentación in silico y elaborar el reporte de la práctica.
 ## Docente
