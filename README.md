@@ -10,18 +10,17 @@ Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, T
 Diseñar un controlador que permita formular un protocolo de tratamiento para que un paciente con enfisema (caso) presente la misma presión alveolar que un individuo sano (control)
 
 ## Actividades
- 1. Calcular analíticamente la función de transferencia del sistema pulmonar.
- 2. Establecer el modelo de ecuaciones integro-diferenciales.
- 3. Determinar el error en estado estacionario y la estabilidad del sistema en lazo abierto.
- 4. Construir el diagrama de bloques como se indica en la Figura 5.4.
- 5. Diseñar el controlador con Simulink utilizando el bloque PID Controller y la herramienta Tune para
- sintonizar los valores óptimos para cada una de las ganancias kP, kI y kD.
- 6. Ilustrar el cambio del ujo de aire y el volumen tidal en respuesta a las siguientes formas de onda de presión sinusoidal en la apertura de la vía aérea [Pao (t)] :
+1. Calcular analíticamente la función de transferencia del sistema pulmonar.
+2. Establecer el modelo de ecuaciones integro-diferenciales.
+3. Determinar el error en estado estacionario y la estabilidad del sistema en lazo abierto.
+4. Construir el diagrama de bloques como se indica en la Figura 5.4.
+5. Diseñar el controlador con Simulink utilizando el bloque PID Controller y la herramienta Tune para sintonizar los valores óptimos para cada una de las ganancias kP, kI y kD.
+6. Ilustrar el cambio del ujo de aire y el volumen tidal en respuesta a las siguientes formas de onda de presión sinusoidal en la apertura de la vía aérea [Pao (t)] :
    a) 15 respiraciones por minuto con una amplitud (A) de 2:5 cmH2O, es decir, respiración normal.
    b) 30 respiraciones por minuto con una amplitud (A) de 1:5 cmH2O, es decir, respiración elevada o taquipnea.
- 7. Determinar la respuesta a la función sinusoidal [u(t) = Asin!t] en el intervalo t 2 [0;30] (segundos), en Python, Simulink y Multisim en lazo abierto y en lazo cerrado con el controlador.
- 8. Elaborar el diagrama biológico del sistema con BioRender.com.
- 9. Discutir los resultados obtenidos en la experimentación in silico y elaborar el reporte de la práctica.
+7. Determinar la respuesta a la función sinusoidal [u(t) = Asin!t] en el intervalo t 2 [0;30] (segundos), en Python, Simulink y Multisim en lazo abierto y en lazo cerrado con el controlador.
+8. Elaborar el diagrama biológico del sistema con BioRender.com.
+9. Discutir los resultados obtenidos en la experimentación in silico y elaborar el reporte de la práctica.
 ## Docente
 Dr. Paul A. Valle
 
